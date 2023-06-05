@@ -32,7 +32,10 @@ function BasicExample() {
           <Navbar.Brand href="#home">
             <img src={logo} alt="LOGO"></img>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-dark" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="navbar-dark"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
@@ -73,12 +76,21 @@ function BasicExample() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/rohit-pandey-2500b6215/" target="_blank">
-                  <img src={navIcon1} alt="./."/>
+                <a
+                  href="https://www.linkedin.com/in/rohit-pandey-2500b6215/"
+                  target="_blank"
+                >
+                  <img src={navIcon1} alt="./." />
                 </a>
-                <a  href="https://github.com/rohitPandey469" target="_blank" onClick={() => {
-                alert("Facebook deactivated for the moment being so CONNECTED TO GIT here");
-              }}>
+                <a
+                  href="https://github.com/rohitPandey469"
+                  target="_blank"
+                  onClick={() => {
+                    alert(
+                      "Facebook deactivated for the moment being so CONNECTED TO GIT here"
+                    );
+                  }}
+                >
                   <img src={navIcon2} alt="./." />
                 </a>
                 <a href="https://www.instagram.com/los_loner/" target="_blank">
@@ -89,10 +101,10 @@ function BasicExample() {
             <button
               className="navbar-text-button"
               onClick={() => {
-                alert("Send Message to rohitpandey73551@gmail.com or connect via some social platform");
+                alert("Send Message through contact form");
               }}
-              
-            ><a href="#connect"></a>
+            >
+              <a  href="#connect"></a>
               Let's Connect
             </button>
           </Navbar.Collapse>

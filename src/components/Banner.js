@@ -59,14 +59,12 @@ function Banner() {
                 field is not so hard and I knew I gotta start somewhere so this
                 is it.
                 <br />
-                P.S. THE CONTACT SECTION NOT WORKING, SO SEND MANUALLY
+                P.S. IN CONTACT SECTION NOT TO MAKE YOU FEEL INSECURE SO CAN JUST SEND NAME AND EMAIL
               </p>
               <button
                 className="banner-button"
                 id="banner-button"
-                onClick={() => {
-                  alert("SEND EMAIL TO rohitpandey73551@gmail.com");
-                }}
+               
               >
                 <a className="btn" href="#connect">
                   Let's Connect

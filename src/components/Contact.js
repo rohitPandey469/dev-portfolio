@@ -1,32 +1,37 @@
 import { useState, React } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/imgs/contact-img.svg";
-// import { status } from 'init';
 
 export default function Contact() {
   const onFormSubmit = async (e) => {
     e.preventDefault();
-    console.log(e);
-
-    console.log("Data", formDetails);
-    setButtonText("Sending");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "Application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Send");
-    let result = response.JSON;
-    setFormDetails(formInitialDetails);
-    if(result.code ===200){
-        setStatus({success:true,message:"Message Sent Successfully!"});
-
-    }else{
-        setStatus({success:false,message:"Something went wrong, please try again or send message manually to rohitpandey73551@gmail.com"});
+    setButtonText("Sending")
+    if (
+      formDetails.firstName &&
+      formDetails.email 
+    ) {
+      const url =
+        "https://contact-form-try-cfebc-default-rtdb.firebaseio.com/try-contact-form.json";
+      const options = {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formDetails),
+      };
+      const res = await fetch(url, options);
+      if (res) {
+        alert("Data Sent");
+        setFormDetails(formInitialDetails);
+        setButtonText("Send");
+        setStatus({success:true,message:"Data sent successfully"})
+      } else {
+        alert("Something went wrong");
+        setStatus({success:false,message:"Oops! Something went wrong!"})
+      }
+    } else {
+      alert("Fill out all the fields!");
     }
-
   };
   const formInitialDetails = {
     firstName: "",
@@ -41,12 +46,7 @@ export default function Contact() {
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState("Send");
-  const [status, setStatus] = useState({});
-
-    // const status = {
-    //   success: false,
-    //   message: "Hii there Rohit Pandey",
-    // };
+  const [status,setStatus]=useState({success:false,message:""});
 
   return (
     <>
@@ -58,7 +58,7 @@ export default function Contact() {
             </Col>
             <Col md={6}>
               <h2>Get In Touch</h2>
-              <form onSubmit={onFormSubmit}>
+              <form>
                 <Row>
                   <Col sm={6} className="px-1">
                     <input
@@ -111,21 +111,12 @@ export default function Contact() {
                     />
                   </Col>
                   <Col>
-                    <button type="submit">
+                    <button type="submit" onClick={onFormSubmit}>
                       <span>{buttonText}</span>
                     </button>
+
                   </Col>
-                  {status.message && (
-                    <Col>
-                      <p
-                        className={
-                          status.success === false ? "danger" : "success"
-                        }
-                      >
-                        {status.message}
-                      </p>
-                    </Col>
-                  )}
+                  <Col className={status.success===false?"danger":"success"}>{status.message}</Col>
                 </Row>
               </form>
             </Col>

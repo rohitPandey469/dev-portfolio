@@ -330,6 +330,7 @@ button.navbar-toggler:hover {
 #banner-img:hover {
   transform: scale(1.05);
 }
+
 @keyframes mymove {
   0% {
     transform: translateY(-25px) scale(1.025);
