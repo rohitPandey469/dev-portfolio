@@ -59,7 +59,7 @@ function Banner() {
                 field is not so hard and I knew I gotta start somewhere so this
                 is it.
                 <br />
-                P.S. IN CONTACT SECTION NOT TO MAKE YOU FEEL INSECURE SO CAN JUST SEND NAME AND EMAIL
+                P.S. CAN JUST SEND NAME AND EMAIL if feeling insecure sending whole information!
               </p>
               <button
                 className="banner-button"
