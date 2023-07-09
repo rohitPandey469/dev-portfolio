@@ -93,19 +93,24 @@ function BasicExample() {
                 >
                   <img src={navIcon2} alt="./." />
                 </a>
-                <a href="https://www.instagram.com/los_loner/" target="_blank">
+                <a
+                  href="https://www.instagram.com/_itx_rohittt_/"
+                  target="_blank"
+                >
                   <img src={navIcon3} alt="./." />
                 </a>
               </div>
             </span>
-            <button
-              className="navbar-text-button"
-              onClick={() => {
-                alert("Send Message through contact form");
-              }}
-            >
-              <a  href="#connect"></a>
-              Let's Connect
+            <button className="navbar-text-button">
+              <a
+                href="#connect"
+                style={{
+                  textDecoration: "none",
+                  color: "#4c7fcb",
+                }}
+              >
+                Let's Connect
+              </a>
             </button>
           </Navbar.Collapse>
         </Container>

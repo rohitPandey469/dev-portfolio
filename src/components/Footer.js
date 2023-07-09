@@ -24,7 +24,7 @@ export default function Footer() {
               }}>
                   <img src={navIcon2} alt="./." />
                 </a>
-                <a href="https://www.instagram.com/los_loner/" target="_blank">
+                <a href="https://www.instagram.com/_itx_rohittt_/" target="_blank">
                   <img src={navIcon3} alt="./." />
                 </a>
               </div>
