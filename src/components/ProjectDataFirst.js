@@ -2,7 +2,15 @@ import image1 from "../assets/imgs/dev.png";
 import image2 from "../assets/imgs/exercisereact.png";
 import image3 from "../assets/imgs/ytbclone.png";
 import image4 from "../assets/imgs/gpt3react.png";
+import image5 from "../assets/imgs/technotes-mern.png"
+
 const dataArray3 = [
+  {
+    title:"techNotes App",
+    data:"For DanD to keep track of his employee status, coded along following my mentor, if want to check CRUD operation use username: Sneha and password: Sneha123$ ",
+    image:image5,
+    link:"https://technotes-by-rohitpandey469.netlify.app/"
+  },
   {
     title: "Youtube Clone",
     data: "Created it while tweaking along my mentor, got to know about files and folder structures, data fetching through api, material ui, thanks to JSM. ",
