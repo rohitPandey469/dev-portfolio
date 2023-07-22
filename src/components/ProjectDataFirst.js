@@ -2,14 +2,21 @@ import image1 from "../assets/imgs/dev.png";
 import image2 from "../assets/imgs/exercisereact.png";
 import image3 from "../assets/imgs/ytbclone.png";
 import image4 from "../assets/imgs/gpt3react.png";
-import image5 from "../assets/imgs/technotes-mern.png"
+import image5 from "../assets/imgs/technotes-mern.png";
+import image6 from "../assets/imgs/react_auth.png";
 
 const dataArray3 = [
   {
-    title:"techNotes App",
-    data:"For DanD to keep track of his employee status, coded along following my mentor, if want to check CRUD operation use username: Sneha and password: Sneha123$ ",
-    image:image5,
-    link:"https://technotes-by-rohitpandey469.netlify.app/"
+    title: "Authorized App",
+    data: "Build something close to financial app where a user can only visit user links and not admin links, and admins will have all the data stored, persisting the login, storing local data using JWTs",
+    image: image6,
+    link: "https://react-auth-signup-login.netlify.app",
+  },
+  {
+    title: "techNotes App",
+    data: "For DanD to keep track of his employee status, coded along following my mentor, if want to check CRUD operation use username: Sneha and password: Sneha123$ ",
+    image: image5,
+    link: "https://technotes-by-rohitpandey469.netlify.app/",
   },
   {
     title: "Youtube Clone",
