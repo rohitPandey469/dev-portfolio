@@ -7,7 +7,7 @@ function Banner() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["a web Developer", "a web Designer", "a Programmer"];
+  const toRotate = ["a web Developer", "a MERN stack developer", "a Programmer"];
   const period = 200;
 
   const tick = () => {
