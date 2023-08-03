@@ -31,7 +31,7 @@ export default function Footer() {
               <p>
               <p class="copy">&copy; Copyright 2023, All Right Reserved</p>
               <p class="copy">
-                Built with &#x2661; by <a href="#">Rohit Pandey</a>
+                Built with &#x2661; by <a href="https://www.instagram.com/_rohit._n.d.b.td/">Rohit Pandey</a>
               </p>
               </p>
             </Col>
