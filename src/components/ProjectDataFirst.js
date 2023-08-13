@@ -4,8 +4,15 @@ import image3 from "../assets/imgs/ytbclone.png";
 import image4 from "../assets/imgs/gpt3react.png";
 import image5 from "../assets/imgs/technotes-mern.png";
 import image6 from "../assets/imgs/react_auth.png";
+import image7 from "../assets/imgs/yelpcamp.png";
 
 const dataArray3 = [
+  {
+    title: "YelpCamp",
+    data: "Built a tiny portion of YelpCamp, implementing CRUD operations for model campground, reviews. As well as keeping users logged in through storing session information in mongostore. Completed it while following along Colt Steele. #mark the completion of the course.",
+    image: image7,
+    link: "https://yelpcamp-sm6m.onrender.com/",
+  },
   {
     title: "Authorized App",
     data: "Build something close to financial app where a user can only visit user links and not admin links, and admins will have all the data stored, persisting the login, storing local data using JWTs",
