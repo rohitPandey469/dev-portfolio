@@ -4,7 +4,14 @@ import image3 from "../assets/imgs/tictac.png";
 import image4 from "../assets/imgs/flappybird.png";
 import image5 from "../assets/imgs/snake.png";
 import image6 from "../assets/imgs/rock.png";
+import image7 from "../assets/imgs/breakout.png";
 const dataArray1 = [
+  {
+    title: "Breakout game",
+    data: "A breakout game, lets smash . . . ",
+    image: image7,
+    link: "https://rohitpandey469.github.io/breakout/",
+  },
   {
     title: "Flappy Bird Game",
     data: "Took help from Kenny Yip Coding channel; the html canvas, context, requireAnimationFrame etc. was some of the new stuff for me but still peak along the way and completed the code. It was fun learning.",
