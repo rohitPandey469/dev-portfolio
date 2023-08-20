@@ -5,18 +5,25 @@ import image4 from "../assets/imgs/flappybird.png";
 import image5 from "../assets/imgs/snake.png";
 import image6 from "../assets/imgs/rock.png";
 import image7 from "../assets/imgs/breakout.png";
+import image8 from "../assets/imgs/doodler.png"
 const dataArray1 = [
+  {
+    title: "Doodler",
+    data: "Let's Doodle together with you Mrs.",
+    image: image8,
+    link: "https://rohitpandey469.github.io/doodle",
+  },
   {
     title: "Breakout game",
     data: "A breakout game, lets smash . . . ",
     image: image7,
-    link: "https://rohitpandey469.github.io/breakout/",
+    link: "https://rohitpandey469.github.io/breakout",
   },
   {
     title: "Flappy Bird Game",
     data: "Took help from Kenny Yip Coding channel; the html canvas, context, requireAnimationFrame etc. was some of the new stuff for me but still peak along the way and completed the code. It was fun learning.",
     image: image4,
-    link: "https://rohitpandey469.github.io/flappy-bird/",
+    link: "https://rohitpandey469.github.io/flappy-bird",
   },
   {
     title: "PingPong",
@@ -28,7 +35,7 @@ const dataArray1 = [
     title: "Connect4",
     data: "Connect Four(Four Up, Plot Four, Find Four, Captain's Mistress, Four in a Row, Drop Four, and Gravitrips in the Soviet Union) is a two-player connection rack game of dropping tokens in seven-column, six-row vertically suspended.",
     image: image2,
-    link: "https://rohitpandey469.github.io/connect-4/",
+    link: "https://rohitpandey469.github.io/connect-4",
   },
   {
     title: "TicTacToe",
