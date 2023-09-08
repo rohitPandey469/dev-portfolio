@@ -5,8 +5,15 @@ import image4 from "../assets/imgs/gpt3react.png";
 import image5 from "../assets/imgs/technotes-mern.png";
 import image6 from "../assets/imgs/react_auth.png";
 import image7 from "../assets/imgs/yelpcamp.png";
+import image8 from "../assets/imgs/stack-overflow.png";
 
 const dataArray3 = [
+  {
+    title: "Stack Overflow Clone",
+    data: "Built a stack overflow clone following a course on nullclass using the MERN technology however the implementation and the way is quite old but sturdy and NOT focuse so much on the security.",
+    image: image8,
+    link: "https://splendorous-praline-736f78.netlify.app",
+  },
   {
     title: "YelpCamp",
     data: "Built a tiny portion of YelpCamp, implementing CRUD operations for model campground, reviews. As well as keeping users logged in through storing session information in mongostore. Completed it while following along Colt Steele. #mark the completion of the course.",
