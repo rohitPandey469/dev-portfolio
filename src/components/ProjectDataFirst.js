@@ -11,7 +11,7 @@ import image9 from "../assets/imgs/chatbot.png";
 const dataArray3 = [
   {
     title: "Chatbot",
-    data: "Authentication using otp and used dialogflow API for implementation of chatbot",
+    data: "Authentication using otp and used dialogflow API for implementation of chatbot and stripe for payment gateway",
     image: image9,
     link: "https://bot-stack.netlify.app",
   },
