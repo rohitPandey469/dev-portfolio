@@ -6,8 +6,15 @@ import image5 from "../assets/imgs/technotes-mern.png";
 import image6 from "../assets/imgs/react_auth.png";
 import image7 from "../assets/imgs/yelpcamp.png";
 import image8 from "../assets/imgs/stack-overflow.png";
+import image9 from "../assets/imgs/chatbot.png";
 
 const dataArray3 = [
+  {
+    title: "Chatbot",
+    data: "Authentication using otp and used dialogflow API for implementation of chatbot",
+    image: image9,
+    link: "https://bot-stack.netlify.app",
+  },
   {
     title: "Stack Overflow Clone",
     data: "Built a stack overflow clone following a course on nullclass using the MERN technology however the implementation and the way is quite old but sturdy and NOT focuse so much on the security.",
