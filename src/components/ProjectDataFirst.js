@@ -17,7 +17,7 @@ const dataArray3 = [
   },
   {
     title: "Stack Overflow Clone",
-    data: "Built a Stack overflow but with the addition of some more features like Chatbot, implemented using dialogflow API, Authentication using email and otp via nodemailer , a payment gateway thorugh stripe to purchase a plan of your choice, reward system by making some changes before storing the data to the db. ",
+    data: "A Stack overflow having some extra features like Chatbot, implemented using dialogflow API, Authentication using email and otp via nodemailer , a payment gateway thorugh stripe to purchase a plan of your choice, reward system by making some changes before storing the data to the db. ",
     image: image8,
     link: "https://splendorous-praline-736f78.netlify.app",
   },
