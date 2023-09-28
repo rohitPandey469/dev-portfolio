@@ -7,8 +7,15 @@ import image6 from "../assets/imgs/react_auth.png";
 import image7 from "../assets/imgs/yelpcamp.png";
 import image8 from "../assets/imgs/stack-overflow.png";
 import image9 from "../assets/imgs/chatbot.png";
+import image10 from "../assets/imgs/iPhone.png";
 
 const dataArray3 = [
+  {
+    title: "iPhone",
+    data: "Three Js is a fascinating thing which let you build something more appealing, more good looking to human eyes, just tried my hands on Gsap",
+    image: image10,
+    link: "https://boisterous-croissant-02f712.netlify.app",
+  },
   {
     title: "Chatbot",
     data: "Authentication using otp and used dialogflow API for implementation of chatbot and stripe for payment gateway",
