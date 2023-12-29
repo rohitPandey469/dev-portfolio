@@ -54,10 +54,7 @@ function Banner() {
                 {"Hi I'm Rohit,"} <span> {`${text}|`}</span>
               </h1>
               <p id="banner-bio">
-                Bonjour! It is Rohit Pandey, a learner, yearning to be a full
-                stack web developer, a college student. Well getting into this
-                field is not so hard and I knew I gotta start somewhere so this
-                is it.
+                Bonjour! 👋 I'm Rohit Pandey, your go-to Full Stack Developer well-versed in the MERN stack. I'm not just passionate about crafting seamless web solutions; I'm ready to bring my expertise to your team, delivering excellence from day one. Let's build something amazing together – I'm eager to contribute to your success! 💻🚀
                 <br />
                 P.S. CAN JUST SEND NAME AND EMAIL if feeling insecure sending whole information!
               </p>
