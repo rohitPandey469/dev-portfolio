@@ -94,7 +94,7 @@ function BasicExample() {
                   <img src={navIcon2} alt="./." />
                 </a>
                 <a
-                  href="https://www.instagram.com/_rohit._n.d.b.td/"
+                  href="https://www.instagram.com/rohiittt_pandey/"
                   target="_blank"
                 >
                   <img src={navIcon3} alt="./." />
