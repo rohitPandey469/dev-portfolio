@@ -15,6 +15,7 @@ import image14 from "../assets/imgs/mario.png";
 import image15 from "../assets/imgs/easy2trip.png";
 import image16 from "../assets/imgs/benne.png";
 // import image17 from "../assets/imgs/carrermodulejetty.png";
+import image18 from "../assets/imgs/portfolio.png";
 
 const dataArray3 = [
   // {
@@ -40,6 +41,12 @@ const dataArray3 = [
     data : "Worked as a frontend developer to make fixes and add new features to the existing website, used typescript.",
     image : image15,
     link : "https://easy2trip.com"
+  },
+  {
+    title : "Designer Portfolio",
+    data : "A personal portfolio website showcasing the design work and projects of Designer Vivek Singh.",
+    image : image18,
+    link : "https://creativevivek.tech"
   },
   {
     title : "Mario Admin Panel",
