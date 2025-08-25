@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -36,58 +35,150 @@ export default function Skills() {
             <Col>
               <div className="skill-box">
                 <h2 id="skill-title">Skills</h2>
-                <p>
-                  The Skills listed here are the ones on which I had worked for some period of time in past or still working. And I'm nowhere going to stop including more skills. The percentage rate here is moderately according to me (Not from a perspective of some expert hehe!).Have a look!
-                  CONNECT THROUGH SOCIAL PLATFORM
+                <p style={{ textAlign: "center" }}>
+                  Skills which I am proficient in
                 </p>
                 <Carousel responsive={responsive} infinite={true} id="skill-slider">
+                  {/* Frontend Technologies */}
+                  <div className="item">
+                    <img src={meter3} alt="" className="skill-slider-img"/>
+                    <h5>React.js</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="" className="skill-slider-img"/>
+                    <h5>Next.js</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="" className="skill-slider-img"/>
+                    <h5>TypeScript</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="" className="skill-slider-img"/>
+                    <h5>JavaScript</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>Redux</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>Tailwind CSS</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>GSAP</h5>
+                  </div>
+                  
+                  {/* Backend Technologies */}
+                  <div className="item">
+                    <img src={meter3} alt="" className="skill-slider-img"/>
+                    <h5>Node.js</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>Express.js</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>Nest.js</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>REST APIs</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>JWT & OAuth</h5>
+                  </div>
+                  
+                  {/* Databases */}
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>MongoDB</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>PostgreSQL</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>Firebase</h5>
+                  </div>
                   <div className="item">
                     <img src={meter1} alt="" className="skill-slider-img"/>
-                    <h5>HTML</h5>
+                    <h5>Redis</h5>
                   </div>
+                  
+                  {/* DevOps & Cloud */}
                   <div className="item">
-                    <img src={meter3} alt="" className="skill-slider-img"/>
-                    <h5>CSS</h5>
-                  </div>
-                  <div className="item">
-                    <img src={meter3} alt="" className="skill-slider-img"/>
-                    <h5>JAVASCRIPT</h5>
-                  </div>
-                  <div className="item">
-                    <img src={meter3} alt="" className="skill-slider-img"/>
-                    <h5>NODE-JS</h5>
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>AWS (EC2, S3)</h5>
                   </div>
                   <div className="item">
                     <img src={meter2} alt="" className="skill-slider-img"/>
-                    <h5>BOOTSTRAP</h5>
+                    <h5>Docker</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="" className="skill-slider-img"/>
+                    <h5>Kubernetes</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="" className="skill-slider-img"/>
+                    <h5>CI/CD (Jenkins)</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="" className="skill-slider-img"/>
+                    <h5>Terraform</h5>
+                  </div>
+                  
+                  {/* Programming Languages */}
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>Python</h5>
                   </div>
                   <div className="item">
                     <img src={meter2} alt="" className="skill-slider-img"/>
-                    <h5>JAVA</h5>
+                    <h5>Java</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="" className="skill-slider-img"/>
+                    <h5>C++</h5>
                   </div>
                   <div className="item">
                     <img src={meter2} alt="" className="skill-slider-img"/>
                     <h5>SQL</h5>
                   </div>
+                  
+                  {/* Tools & Others */}
                   <div className="item">
                     <img src={meter2} alt="" className="skill-slider-img"/>
-                    <h5>mongoDB</h5>
+                    <h5>Git</h5>
                   </div>
                   <div className="item">
                     <img src={meter2} alt="" className="skill-slider-img"/>
-                    <h5>PYTHON</h5>
+                    <h5>Linux</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="" className="skill-slider-img"/>
+                    <h5>Postman</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="" className="skill-slider-img"/>
+                    <h5>Jira</h5>
+                  </div>
+                  
+                  {/* Problem Solving & Algorithms */}
+                  <div className="item">
+                    <img src={meter3} alt="" className="skill-slider-img"/>
+                    <h5>Problem Solving</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="" className="skill-slider-img"/>
+                    <h5>DSA (LeetCode 1700+)</h5>
                   </div>
                   <div className="item">
                     <img src={meter2} alt="" className="skill-slider-img"/>
-                    <h5>CP</h5>
-                  </div>
-                  <div className="item">
-                    <img src={meter2} alt="" className="skill-slider-img"/>
-                    <h5>REACT-JS</h5>
-                  </div>
-                  <div className="item">
-                    <img src={meter2} alt="" className="skill-slider-img"/>
-                    <h5>PHP</h5>
+                    <h5>System Design</h5>
                   </div>
                 </Carousel>
               </div>

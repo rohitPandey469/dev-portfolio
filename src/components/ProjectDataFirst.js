@@ -8,8 +8,57 @@ import image7 from "../assets/imgs/yelpcamp.png";
 import image8 from "../assets/imgs/stack-overflow.png";
 import image9 from "../assets/imgs/chatbot.png";
 import image10 from "../assets/imgs/iPhone.png";
+import image11 from "../assets/imgs/zealicon2025.png";
+import image12 from "../assets/imgs/nibble.png";
+import image13 from "../assets/imgs/zealicon2024.png";
+import image14 from "../assets/imgs/mario.png";
+import image15 from "../assets/imgs/easy2trip.png";
+import image16 from "../assets/imgs/benne.png";
+// import image17 from "../assets/imgs/carrermodulejetty.png";
 
 const dataArray3 = [
+  // {
+  //   title : "CarrerModule Jetty",
+  //   data : "Worked on course module part of the project to showcase lessons. Tackled complexity of managing content showcase, user progress etc.",
+  //   image : image17,
+  //   link : "https"
+  // },
+  {
+    title : "Zealicon Annual Fest 2025",
+    data : "Lead the team of 8 members to build the official website for Annual Fest of JSS College. Worked on functional and non-functional requirements, ensured responsiveness and cross-browser compatibility, and optimized performance for fast loading times.",
+    image : image11,
+    link : "https://zealicon2025.netlify.app"
+  },
+  {
+    title : "Benne Berlin",
+    data : "A germany based restaurant website, contains both the landing page and admin panel for managing the content of the website, built using react js for frontend and express for backend.",
+    image : image16,
+    link : "https://benneberlin.de"
+  },
+  {
+    title : "Easy2Trip",
+    data : "Worked as a frontend developer to make fixes and add new features to the existing website, used typescript.",
+    image : image15,
+    link : "https://easy2trip.com"
+  },
+  {
+    title : "Mario Admin Panel",
+    data : "An admin panel for managing data of Mario app, for example authorization of users(kyc-type), controlling events, and so much more.",
+    image : image14,
+    link : "https://marioadminncs.netlify.app"
+  },
+  {
+    title : "Zealicon Annual Fest 2024",
+    data : "Part of the frontend team to build the official website for Annual Techno-Cultural Fest of JSS College. Used React.js and Redux. And worked on all the functionalities of the website(auth+module+pay+show)",
+    image : image13,
+    link : "https://zealicon2024.netlify.app"
+  },
+  {
+    title : "Nibble Computer Society Website",
+    data : "Worked as a core team member(3 people's) to build the official website for Computer Society of JSS College. Used React.js for frontend and express for backend.",
+    image : image12,
+    link : "https://hackncs.in",
+  },
   {
     title: "iPhone",
     data: "Three Js is a fascinating thing which let you build something more appealing, more good looking to human eyes, just tried my hands on Gsap",

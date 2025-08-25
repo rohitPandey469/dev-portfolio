@@ -7,7 +7,7 @@ function Banner() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["a web Developer", "a MERN stack developer", "a Programmer"];
+  const toRotate = [ "a Programmer", "a Developer", "a Robotics Engineer", "a DevOps Engineer"];
   const period = 200;
 
   const tick = () => {
@@ -54,9 +54,7 @@ function Banner() {
                 {"Hi I'm Rohit,"} <span> {`${text}|`}</span>
               </h1>
               <p id="banner-bio">
-                Bonjour! 👋 I'm Rohit Pandey, your go-to Full Stack Developer well-versed in the MERN stack. I'm not just passionate about crafting seamless web solutions; I'm ready to bring my expertise to your team, delivering excellence from day one. Let's build something amazing together – I'm eager to contribute to your success! 💻🚀
-                <br />
-                P.S. CAN JUST SEND NAME AND EMAIL if feeling insecure sending whole information!
+                Bonjour! 👋 I'm Rohit Pandey, your go-to Full Stack Developer well-versed in the MERN stack and Versatile. I'm not just passionate about crafting seamless web solutions; I'm ready to bring my expertise to your team, delivering excellence from day one. Let's build something amazing together – I'm eager to contribute to your success! 💻🚀
               </p>
               <button
                 className="banner-button"
